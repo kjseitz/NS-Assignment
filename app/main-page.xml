@@ -1,10 +1,10 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
     <ActionBar title="My App" icon="" />
     <StackLayout class="p-4">
-        <Label text="Please tap me" class="text-3xl text-center" />
         <Image
   src="https://images.vexels.com/media/users/3/281956/isolated/preview/a49c69a471ecc534b08443280f33228b-welcome-holiday-quote.png"
 />
+<Label text="Information: " class="text-3xl text-center" />
 <Label text="Please enter your name: " class="text-left" />
 <TextField hint="First and Last Name" color="black" backgroundColor="lightblue" />
 <Label text="Please enter your date of birth: " class="text-left" />
